@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.headerio_linkas1, .headerio_linkas2, .headerio_linkas3{
+    display: inline;
+    float: right;
+     margin: 0px 10px 0px; 
+    color: rgb(0, 0, 0);
+}
+
+hr{
+    width: 100%;
+    border: 2px solid black;
+    margin: 0;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    background-color: rgba(62, 233, 53, 0.7);
+    z-index: 1; /* leidzia headeriui slankioti virs visko */
+}
+
+.backgroundas{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://www.sgs.com/-/media/sgscorp/images/temporary/green-forest.cdn.en-CZ.1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+    z-index: 0;
+    display: flex; /* Use flexbox to center .text1 horizontally and vertically */
+    justify-content: center; /* Center .text1 horizontally */
+    align-items: center; /* Center .text1 vertically */
+}
+.inside{
+    width: 500px;
+    height: 300px;
+    background-color: grey;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    background: rgba(255,255,255,0.5);
+    display: flex; /* Use flexbox to center .text1 horizontally and vertically */
+    justify-content: center; /* Center .text1 horizontally */
+    align-items: center; /* Center .text1 vertically */
+}
+
+.katalogas{
+    margin: 2% 5% 2%;
+}
+
+img{
+    width: 280px;
+    height: 200px;
+}
+
+
+.text1, .text3, .text5{
+    width: 100px;
+    height: 300px;
+    display: inline flex;
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+.text2, .text4, .text6{
+    float: right;
+    width: 100px;
+    height: 300px;
+    display: inline flex;
+    margin-right: -25%;
+    margin-top: 1%;
+}
+
+.nuotrauka1, .nuotrauka3, .nuotrauka5{
+    float: left;
+}
+.nuotrauka2, .nuotrauka4, .nuotrauka6{
+    float: right;
+    margin-right: 25%;
+}
+
+
+header{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Kalam', cursive;
+}
+p{
+    font-family: 'Lora', serif;
+}
